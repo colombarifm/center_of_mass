@@ -280,7 +280,7 @@ contains
             
     implicit none
 
-    write(stdout,'(/,T20, A)')'Usage:  com --input [FILEIN] --output [FILEOUT] --center [TRUE/FALSE]     '
+    write(stdout,'(/,T15, A)')'Usage:  center_of_mass --input [FILEIN] --output [FILEOUT] --center [TRUE/FALSE]     '
     write(stdout,'(/,T3, A)') dashline
     write(stdout,'(/,T25, A)')'[FILEIN]     : initial .xyz coordinate file.'
     write(stdout,'(/,T25, A)')'[FILEOUT]    : final .xyz coordinate file.'

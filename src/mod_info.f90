@@ -47,7 +47,7 @@ contains
     character( len = 16 ), parameter :: version = '1.0.0'
       
     write(stdout,'(T3, A)')       dashline
-    write(stdout,'(T52, A, A)')   "COM"
+    write(stdout,'(T47, A, A)')   "CENTER_OF_MASS"
     write(stdout,'(/,T18, A)')    "A code to calculate the center of mass of a given molecular structure"                                                  
     write(stdout,'(/,T41, A, A)') "Author: Felippe M. Colombari"
     write(stdout,'(/,T39, A)')    "E-mail: colombarifm@hotmail.com"
