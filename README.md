@@ -6,7 +6,7 @@ It reads a .xyz file and writes out a new file containing an extra particle (lab
 center_of_mass is a free software written in Fortran 2003 language, being available at https://github.com/colombarifm/center_of_mass under the GPLv3+ License. 
 It runs under Linux environment with gfortran/gcc 5.4+ compilers.
 
-# usage
+## usage
 
 `center_of_mass --input [FILEIN] --output [FILEOUT] --center [TRUE/FALSE]`
 
